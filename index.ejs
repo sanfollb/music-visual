@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta name="Keywords" content="音乐可视化,webAudio,passion,passionate,music,音乐,HTML5,canvas,CSS3,自适应"> 
+    <meta name="Description" content="利用HTML5 webAudio API 和canvas API以及CSS3制作成的自适应的音乐可视化应用">
+    <meta name="Author" content="sanfol">
+    <meta name="Robots" content= "all">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  <header>
+  	<h1><%= title %></h1>
+  	<ul class="type" id="type">
+  		<li data-type="dot">Dot</li>
+  		<li data-type="column" class="dided">Column</li>
+  	</ul>
+  	<p>
+  		Volume<input id="volume" type="range" min="0" max="100" value="60">
+  	</p>
+  	<div id="cst">
+  		<button id="startt">开始</button>
+  		<button id="stopp">暂停</button>
+  	</div>
+  </header>
+    <div class="left">
+        <button class="music-add" id="add" >播放本地音乐</button>
+        <input class="upload" type="file" id="upload">
+    	<ul id="list">
+    	    <% music.forEach(function(name){ %>
+    	    <li title="<%= name %>"><%= name %></li>
+    	    <% }) %> 	 
+    	</ul>
+    </div>
+    <div class="right" id="box" ></div>
+      <script type="text/javascript" src="/javascripts/index.js"></script>
+  <script type="text/javascript" src="js/main-425da477207bd7ad587f.js"></script></body>
+</html>
