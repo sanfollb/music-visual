@@ -36,6 +36,7 @@ music by webaudio and express and ajax and html5 canvas
 
 ![image](https://github.com/sanfollb/music-visual/blob/master/pic/QQ%E5%9B%BE%E7%89%8720170601181124.png)
 
+![image](https://github.com/sanfollb/music-visual/blob/master/pic/QQ%E5%9B%BE%E7%89%8720170601181204.png)
 
 #待完善
 
