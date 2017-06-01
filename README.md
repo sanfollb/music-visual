@@ -34,6 +34,8 @@ music by webaudio and express and ajax and html5 canvas
 
 5.支持不同大小窗口播放
 
+![image](https://github.com/sanfollb/music-visual/blob/master/pic/QQ%E5%9B%BE%E7%89%8720170601181124.png)
+
 
 #待完善
 
